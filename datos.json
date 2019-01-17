@@ -1,102 +1,802 @@
 [
-    {
-		"categoria": "Comida",
-		"producto": "Cereal",
-		"marca": "Infiniti"
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "ensaladas",
+		"cantidad_ventas": 20,
+		"fecha_venta": "Oct",
+		"nombre_marca": "Audi",
+		"id_categoria": 1
 	},
 	{
-		"categoria": "Comida",
-		"producto": "Leche",
-		"marca": "Mitsubishi Motors"
+		"nombre_categoria": "Comida",
+		"nombre_producto": "fideos",
+		"cantidad_ventas": 98,
+		"fecha_venta": "Sep",
+		"nombre_marca": "Chevrolet",
+		"id_categoria": 2
 	},
 	{
-		"categoria": "Ropa",
-		"producto": "Camisa",
-		"marca": "Dacia"
+		"nombre_categoria": "Comida",
+		"nombre_producto": "empanadas",
+		"cantidad_ventas": 27,
+		"fecha_venta": "Dec",
+		"nombre_marca": "BMW",
+		"id_categoria": 3
 	},
 	{
-		"categoria": "Ropa",
-		"producto": "Detergente",
-		"marca": "Mercedes-Benz"
+		"nombre_categoria": "Comida",
+		"nombre_producto": "guisos",
+		"cantidad_ventas": 85,
+		"fecha_venta": "Jun",
+		"nombre_marca": "Audi",
+		"id_categoria": 4
 	},
 	{
-		"categoria": "Ropa",
-		"producto": "Desinfectante",
-		"marca": "Dodge"
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "pasta",
+		"cantidad_ventas": 57,
+		"fecha_venta": "Jul",
+		"nombre_marca": "Buick",
+		"id_categoria": 5
 	},
 	{
-		"categoria": "Comida",
-		"producto": "Desinfectante",
-		"marca": "Vauxhall"
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "sopas",
+		"cantidad_ventas": 94,
+		"fecha_venta": "Aug",
+		"nombre_marca": "FAW",
+		"id_categoria": 6
 	},
 	{
-		"categoria": "Comida",
-		"producto": "Cereal",
-		"marca": "Mercedes-Benz"
+		"nombre_categoria": "Comida",
+		"nombre_producto": "mariscos",
+		"cantidad_ventas": 50,
+		"fecha_venta": "Aug",
+		"nombre_marca": "Dacia",
+		"id_categoria": 7
 	},
 	{
-		"categoria": "Comida",
-		"producto": "Jabon",
-		"marca": "Dodge"
+		"nombre_categoria": "Comida",
+		"nombre_producto": "cereales",
+		"cantidad_ventas": 71,
+		"fecha_venta": "Dec",
+		"nombre_marca": "Chrysler",
+		"id_categoria": 8
 	},
 	{
-		"categoria": "Ropa",
-		"producto": "Cereal",
-		"marca": "Smart"
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "guisos",
+		"cantidad_ventas": 43,
+		"fecha_venta": "Aug",
+		"nombre_marca": "Renault",
+		"id_categoria": 9
 	},
 	{
-		"categoria": "Comida",
-		"producto": "Cereal",
-		"marca": "Ford"
+		"nombre_categoria": "Comida",
+		"nombre_producto": "cereales",
+		"cantidad_ventas": 47,
+		"fecha_venta": "Oct",
+		"nombre_marca": "Volkswagen",
+		"id_categoria": 10
 	},
 	{
-		"categoria": "Comida",
-		"producto": "Detergente",
-		"marca": "Seat"
+		"nombre_categoria": "Comida",
+		"nombre_producto": "guisos",
+		"cantidad_ventas": 50,
+		"fecha_venta": "Dec",
+		"nombre_marca": "Vauxhall",
+		"id_categoria": 11
 	},
 	{
-		"categoria": "Comida",
-		"producto": "Cereal",
-		"marca": "Ferrari"
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "postres",
+		"cantidad_ventas": 50,
+		"fecha_venta": "Dec",
+		"nombre_marca": "General Motors",
+		"id_categoria": 12
 	},
 	{
-		"categoria": "Ropa",
-		"producto": "Detergente",
-		"marca": "Audi"
+		"nombre_categoria": "Comida",
+		"nombre_producto": "pasta",
+		"cantidad_ventas": 50,
+		"fecha_venta": "Apr",
+		"nombre_marca": "Chrysler",
+		"id_categoria": 13
 	},
 	{
-		"categoria": "Ropa",
-		"producto": "Desinfectante",
-		"marca": "Suzuki"
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "sándwiches",
+		"cantidad_ventas": 99,
+		"fecha_venta": "Dec",
+		"nombre_marca": "Cadillac",
+		"id_categoria": 14
 	},
 	{
-		"categoria": "Comida",
-		"producto": "Detergente",
-		"marca": "Cadillac"
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "sándwiches",
+		"cantidad_ventas": 20,
+		"fecha_venta": "Feb",
+		"nombre_marca": "Lincoln",
+		"id_categoria": 15
 	},
 	{
-		"categoria": "Comida",
-		"producto": "Desinfectante",
-		"marca": "Cadillac"
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "pasta",
+		"cantidad_ventas": 55,
+		"fecha_venta": "Aug",
+		"nombre_marca": "Seat",
+		"id_categoria": 16
 	},
 	{
-		"categoria": "Comida",
-		"producto": "Desinfectante",
-		"marca": "Isuzu"
+		"nombre_categoria": "Comida",
+		"nombre_producto": "pasta",
+		"cantidad_ventas": 31,
+		"fecha_venta": "Sep",
+		"nombre_marca": "Mitsubishi Motors",
+		"id_categoria": 17
 	},
 	{
-		"categoria": "Comida",
-		"producto": "Jabon",
-		"marca": "FAW"
+		"nombre_categoria": "Comida",
+		"nombre_producto": "postres",
+		"cantidad_ventas": 96,
+		"fecha_venta": "May",
+		"nombre_marca": "Chevrolet",
+		"id_categoria": 18
 	},
 	{
-		"categoria": "Ropa",
-		"producto": "Detergente",
-		"marca": "Honda"
+		"nombre_categoria": "Comida",
+		"nombre_producto": "postres",
+		"cantidad_ventas": 98,
+		"fecha_venta": "Oct",
+		"nombre_marca": "Porsche",
+		"id_categoria": 19
 	},
 	{
-		"categoria": "Comida",
-		"producto": "Jabon",
-		"marca": "Smart"
+		"nombre_categoria": "Comida",
+		"nombre_producto": "fideos",
+		"cantidad_ventas": 59,
+		"fecha_venta": "Oct",
+		"nombre_marca": "JLR",
+		"id_categoria": 20
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "mariscos",
+		"cantidad_ventas": 31,
+		"fecha_venta": "Apr",
+		"nombre_marca": "Subaru",
+		"id_categoria": 21
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "guisos",
+		"cantidad_ventas": 22,
+		"fecha_venta": "Nov",
+		"nombre_marca": "Infiniti",
+		"id_categoria": 22
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "empanadas",
+		"cantidad_ventas": 50,
+		"fecha_venta": "Apr",
+		"nombre_marca": "Skoda",
+		"id_categoria": 23
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "pasta",
+		"cantidad_ventas": 35,
+		"fecha_venta": "Feb",
+		"nombre_marca": "Nissan",
+		"id_categoria": 24
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "sopas",
+		"cantidad_ventas": 91,
+		"fecha_venta": "Nov",
+		"nombre_marca": "Renault",
+		"id_categoria": 25
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "postres",
+		"cantidad_ventas": 74,
+		"fecha_venta": "Apr",
+		"nombre_marca": "Tata Motors",
+		"id_categoria": 26
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "empanadas",
+		"cantidad_ventas": 84,
+		"fecha_venta": "Aug",
+		"nombre_marca": "RAM Trucks",
+		"id_categoria": 27
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "sándwiches",
+		"cantidad_ventas": 35,
+		"fecha_venta": "May",
+		"nombre_marca": "Tata Motors",
+		"id_categoria": 28
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "cereales",
+		"cantidad_ventas": 42,
+		"fecha_venta": "Jun",
+		"nombre_marca": "Peugeot",
+		"id_categoria": 29
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "sándwiches",
+		"cantidad_ventas": 44,
+		"fecha_venta": "Apr",
+		"nombre_marca": "Peugeot",
+		"id_categoria": 30
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "pasta",
+		"cantidad_ventas": 52,
+		"fecha_venta": "May",
+		"nombre_marca": "BMW",
+		"id_categoria": 31
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "postres",
+		"cantidad_ventas": 36,
+		"fecha_venta": "Jan",
+		"nombre_marca": "BMW",
+		"id_categoria": 32
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "sándwiches",
+		"cantidad_ventas": 55,
+		"fecha_venta": "Nov",
+		"nombre_marca": "Lincoln",
+		"id_categoria": 33
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "pasta",
+		"cantidad_ventas": 88,
+		"fecha_venta": "May",
+		"nombre_marca": "Cadillac",
+		"id_categoria": 34
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "empanadas",
+		"cantidad_ventas": 52,
+		"fecha_venta": "Nov",
+		"nombre_marca": "Daimler",
+		"id_categoria": 35
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "sándwiches",
+		"cantidad_ventas": 23,
+		"fecha_venta": "Apr",
+		"nombre_marca": "Audi",
+		"id_categoria": 36
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "sopas",
+		"cantidad_ventas": 34,
+		"fecha_venta": "May",
+		"nombre_marca": "JLR",
+		"id_categoria": 37
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "empanadas",
+		"cantidad_ventas": 96,
+		"fecha_venta": "Nov",
+		"nombre_marca": "GMC",
+		"id_categoria": 38
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "ensaladas",
+		"cantidad_ventas": 80,
+		"fecha_venta": "Oct",
+		"nombre_marca": "Kenworth",
+		"id_categoria": 39
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "mariscos",
+		"cantidad_ventas": 79,
+		"fecha_venta": "Mar",
+		"nombre_marca": "Kenworth",
+		"id_categoria": 40
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "pasta",
+		"cantidad_ventas": 84,
+		"fecha_venta": "Jan",
+		"nombre_marca": "Nissan",
+		"id_categoria": 41
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "ensaladas",
+		"cantidad_ventas": 69,
+		"fecha_venta": "Sep",
+		"nombre_marca": "Peugeot",
+		"id_categoria": 42
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "fideos",
+		"cantidad_ventas": 69,
+		"fecha_venta": "Dec",
+		"nombre_marca": "Vauxhall",
+		"id_categoria": 43
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "mariscos",
+		"cantidad_ventas": 20,
+		"fecha_venta": "Aug",
+		"nombre_marca": "Ferrari",
+		"id_categoria": 44
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "ensaladas",
+		"cantidad_ventas": 56,
+		"fecha_venta": "Apr",
+		"nombre_marca": "Skoda",
+		"id_categoria": 45
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "fideos",
+		"cantidad_ventas": 59,
+		"fecha_venta": "Dec",
+		"nombre_marca": "Buick",
+		"id_categoria": 46
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "ensaladas",
+		"cantidad_ventas": 73,
+		"fecha_venta": "Jun",
+		"nombre_marca": "Subaru",
+		"id_categoria": 47
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "guisos",
+		"cantidad_ventas": 96,
+		"fecha_venta": "Aug",
+		"nombre_marca": "Infiniti",
+		"id_categoria": 48
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "sándwiches",
+		"cantidad_ventas": 87,
+		"fecha_venta": "May",
+		"nombre_marca": "Lexus",
+		"id_categoria": 49
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "mariscos",
+		"cantidad_ventas": 65,
+		"fecha_venta": "Feb",
+		"nombre_marca": "Buick",
+		"id_categoria": 50
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "empanadas",
+		"cantidad_ventas": 12,
+		"fecha_venta": "Jul",
+		"nombre_marca": "GMC",
+		"id_categoria": 51
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "pasta",
+		"cantidad_ventas": 57,
+		"fecha_venta": "Aug",
+		"nombre_marca": "Mercedes-Benz",
+		"id_categoria": 52
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "ensaladas",
+		"cantidad_ventas": 86,
+		"fecha_venta": "Jan",
+		"nombre_marca": "Nissan",
+		"id_categoria": 53
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "fideos",
+		"cantidad_ventas": 88,
+		"fecha_venta": "Jun",
+		"nombre_marca": "Maruti Suzuki",
+		"id_categoria": 54
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "guisos",
+		"cantidad_ventas": 68,
+		"fecha_venta": "Jun",
+		"nombre_marca": "Peugeot",
+		"id_categoria": 55
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "empanadas",
+		"cantidad_ventas": 65,
+		"fecha_venta": "Jul",
+		"nombre_marca": "Acura",
+		"id_categoria": 56
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "postres",
+		"cantidad_ventas": 87,
+		"fecha_venta": "Oct",
+		"nombre_marca": "Kenworth",
+		"id_categoria": 57
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "postres",
+		"cantidad_ventas": 73,
+		"fecha_venta": "May",
+		"nombre_marca": "Mercedes-Benz",
+		"id_categoria": 58
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "sopas",
+		"cantidad_ventas": 80,
+		"fecha_venta": "Mar",
+		"nombre_marca": "Kenworth",
+		"id_categoria": 59
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "cereales",
+		"cantidad_ventas": 61,
+		"fecha_venta": "Nov",
+		"nombre_marca": "Lexus",
+		"id_categoria": 60
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "guisos",
+		"cantidad_ventas": 26,
+		"fecha_venta": "Dec",
+		"nombre_marca": "Porsche",
+		"id_categoria": 61
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "pasta",
+		"cantidad_ventas": 78,
+		"fecha_venta": "Sep",
+		"nombre_marca": "RAM Trucks",
+		"id_categoria": 62
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "fideos",
+		"cantidad_ventas": 69,
+		"fecha_venta": "Jul",
+		"nombre_marca": "Vauxhall",
+		"id_categoria": 63
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "empanadas",
+		"cantidad_ventas": 80,
+		"fecha_venta": "Aug",
+		"nombre_marca": "Fiat",
+		"id_categoria": 64
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "postres",
+		"cantidad_ventas": 86,
+		"fecha_venta": "Feb",
+		"nombre_marca": "General Motors",
+		"id_categoria": 65
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "guisos",
+		"cantidad_ventas": 46,
+		"fecha_venta": "Mar",
+		"nombre_marca": "Audi",
+		"id_categoria": 66
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "postres",
+		"cantidad_ventas": 57,
+		"fecha_venta": "May",
+		"nombre_marca": "Lexus",
+		"id_categoria": 67
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "fideos",
+		"cantidad_ventas": 13,
+		"fecha_venta": "Jul",
+		"nombre_marca": "General Motors",
+		"id_categoria": 68
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "empanadas",
+		"cantidad_ventas": 42,
+		"fecha_venta": "Mar",
+		"nombre_marca": "Dongfeng Motor",
+		"id_categoria": 69
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "pasta",
+		"cantidad_ventas": 38,
+		"fecha_venta": "Jan",
+		"nombre_marca": "Lincoln",
+		"id_categoria": 70
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "sándwiches",
+		"cantidad_ventas": 17,
+		"fecha_venta": "Apr",
+		"nombre_marca": "Subaru",
+		"id_categoria": 71
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "postres",
+		"cantidad_ventas": 18,
+		"fecha_venta": "Apr",
+		"nombre_marca": "Volvo",
+		"id_categoria": 72
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "cereales",
+		"cantidad_ventas": 93,
+		"fecha_venta": "Apr",
+		"nombre_marca": "Daimler",
+		"id_categoria": 73
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "sándwiches",
+		"cantidad_ventas": 50,
+		"fecha_venta": "Oct",
+		"nombre_marca": "Buick",
+		"id_categoria": 74
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "sopas",
+		"cantidad_ventas": 24,
+		"fecha_venta": "Aug",
+		"nombre_marca": "Volkswagen",
+		"id_categoria": 75
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "mariscos",
+		"cantidad_ventas": 48,
+		"fecha_venta": "Aug",
+		"nombre_marca": "Cadillac",
+		"id_categoria": 76
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "postres",
+		"cantidad_ventas": 18,
+		"fecha_venta": "Feb",
+		"nombre_marca": "JLR",
+		"id_categoria": 77
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "sándwiches",
+		"cantidad_ventas": 68,
+		"fecha_venta": "Jul",
+		"nombre_marca": "Citroën",
+		"id_categoria": 78
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "ensaladas",
+		"cantidad_ventas": 92,
+		"fecha_venta": "Jan",
+		"nombre_marca": "Suzuki",
+		"id_categoria": 79
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "pasta",
+		"cantidad_ventas": 94,
+		"fecha_venta": "Jul",
+		"nombre_marca": "Honda",
+		"id_categoria": 80
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "empanadas",
+		"cantidad_ventas": 11,
+		"fecha_venta": "Feb",
+		"nombre_marca": "Skoda",
+		"id_categoria": 81
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "empanadas",
+		"cantidad_ventas": 19,
+		"fecha_venta": "Mar",
+		"nombre_marca": "Skoda",
+		"id_categoria": 82
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "mariscos",
+		"cantidad_ventas": 12,
+		"fecha_venta": "Jul",
+		"nombre_marca": "Citroën",
+		"id_categoria": 83
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "sopas",
+		"cantidad_ventas": 82,
+		"fecha_venta": "Feb",
+		"nombre_marca": "Daimler",
+		"id_categoria": 84
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "mariscos",
+		"cantidad_ventas": 75,
+		"fecha_venta": "Sep",
+		"nombre_marca": "Infiniti",
+		"id_categoria": 85
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "guisos",
+		"cantidad_ventas": 98,
+		"fecha_venta": "Jun",
+		"nombre_marca": "Mahindra and Mahindra",
+		"id_categoria": 86
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "sopas",
+		"cantidad_ventas": 83,
+		"fecha_venta": "Jan",
+		"nombre_marca": "Citroën",
+		"id_categoria": 87
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "pasta",
+		"cantidad_ventas": 16,
+		"fecha_venta": "May",
+		"nombre_marca": "Cadillac",
+		"id_categoria": 88
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "sopas",
+		"cantidad_ventas": 86,
+		"fecha_venta": "May",
+		"nombre_marca": "Honda",
+		"id_categoria": 89
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "sándwiches",
+		"cantidad_ventas": 70,
+		"fecha_venta": "Jul",
+		"nombre_marca": "Subaru",
+		"id_categoria": 90
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "cereales",
+		"cantidad_ventas": 79,
+		"fecha_venta": "Sep",
+		"nombre_marca": "Dongfeng Motor",
+		"id_categoria": 91
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "sopas",
+		"cantidad_ventas": 33,
+		"fecha_venta": "Apr",
+		"nombre_marca": "Kenworth",
+		"id_categoria": 92
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "sándwiches",
+		"cantidad_ventas": 37,
+		"fecha_venta": "Oct",
+		"nombre_marca": "Cadillac",
+		"id_categoria": 93
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "pasta",
+		"cantidad_ventas": 16,
+		"fecha_venta": "Jan",
+		"nombre_marca": "Dongfeng Motor",
+		"id_categoria": 94
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "fideos",
+		"cantidad_ventas": 65,
+		"fecha_venta": "Dec",
+		"nombre_marca": "Buick",
+		"id_categoria": 95
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "fideos",
+		"cantidad_ventas": 71,
+		"fecha_venta": "Oct",
+		"nombre_marca": "Mazda",
+		"id_categoria": 96
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "ensaladas",
+		"cantidad_ventas": 50,
+		"fecha_venta": "Mar",
+		"nombre_marca": "Dacia",
+		"id_categoria": 97
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "sopas",
+		"cantidad_ventas": 41,
+		"fecha_venta": "Aug",
+		"nombre_marca": "Honda",
+		"id_categoria": 98
+	},
+	{
+		"nombre_categoria": "Ropa",
+		"nombre_producto": "sándwiches",
+		"cantidad_ventas": 57,
+		"fecha_venta": "Sep",
+		"nombre_marca": "Daihatsu",
+		"id_categoria": 99
+	},
+	{
+		"nombre_categoria": "Comida",
+		"nombre_producto": "cereales",
+		"cantidad_ventas": 71,
+		"fecha_venta": "Oct",
+		"nombre_marca": "Nissan",
+		"id_categoria": 100
 	}
 ]

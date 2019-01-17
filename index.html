@@ -17,6 +17,9 @@
         <script src="js/code/modules/data.js"></script>
         <script src="js/code/modules/exporting.js"></script>
         <script src="js/code/modules/export-data.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
     </head>
 
     <!--End Head-->
@@ -39,64 +42,22 @@
         <section>
                 <div>
                         <label for="categoria">Categoria</label>
-                        <select id="country" name="country">
-                                <option value="australia">Australia</option>
-                                <option value="canada">Canada</option>
-                                <option value="usa">USA</option>
+                        <select id="categoria" name="categoria">                                
                         </select>
                         
                         <label for="producto">Producto</label>
-                        <select id="country" name="country">
-                                <option value="australia">Australia</option>
-                                <option value="canada">Canada</option>
-                                <option value="usa">USA</option>
+                        <select id="producto" name="select-producto">
+                               
                         </select>
                         
                         <label for="marca">Marca</label>
-                        <select id="country" name="country">
-                                <option value="australia">Australia</option>
-                                <option value="canada">Canada</option>
-                                <option value="usa">USA</option>
+                        <select id="marca" name="select-marca">
+                                
                         </select>
                 </div>
                 <div id="container" style="width:100%; height:400px;"></div>
                 
-                <table id="datatable">
-                        <thead>
-                            <tr>
-                                <th></th>
-                                <th>Jane</th>
-                                <th>John</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th>Apples</th>
-                                <td>3</td>
-                                <td>4</td>
-                            </tr>
-                            <tr>
-                                <th>Pears</th>
-                                <td>2</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <th>Plums</th>
-                                <td>5</td>
-                                <td>11</td>
-                            </tr>
-                            <tr>
-                                <th>Bananas</th>
-                                <td>1</td>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <th>Oranges</th>
-                                <td>2</td>
-                                <td>4</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                
         </section>
 
         <!--Inicio Footer-->
@@ -105,31 +66,27 @@
 
         <!--Scripts-->
         <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
 
-            Highcharts.chart('container', {
-    data: {
-        table: 'datatable'
-    },
-    chart: {
-        type: 'column'
-    },
-    title: {
-        text: 'Sales by month for'
-    },
-    yAxis: {
-        allowDecimals: false,
-        title: {
-            text: 'Units'
-        }
-    },
-    tooltip: {
-        formatter: function () {
-            return '<b>' + this.series.name + '</b><br/>' +
-                this.point.y + ' ' + this.point.name.toLowerCase();
-        }
-    }
-});
-                    </script>
+        var options = {
+            chart: {
+                type: 'spline'
+            },
+            series: [{}]
+        };
+
+        Highcharts.ajax({
+            url: 'datos.json',
+            success: function(data) {
+                options.series[0].data = data;
+                Highcharts.Chart('container', options);
+            }
+        });
+
+        });     
+
+ 
+        </script>
     </body>
 
     <!--End Body-->
