@@ -56,7 +56,7 @@
                         </select>
                 </div>
                 <div id="container" style="width:100%; height:400px;"></div>
-                
+                <p id="demo"></p>
                 
         </section>
 
@@ -66,26 +66,138 @@
 
         <!--Scripts-->
         <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function () {
 
-        var options = {
-            chart: {
-                type: 'spline'
-            },
-            series: [{}]
-        };
+        //variable de selec de categoria
+        var $select = $('#categoria');
 
-        Highcharts.ajax({
-            url: 'datos.json',
-            success: function(data) {
-                options.series[0].data = data;
-                Highcharts.Chart('container', options);
+        //se realiza un metodo, donde se llama a los datos en formato json
+        $.getJSON('datos.json', function(data){
+                    $select.html('');
+                    for(var i=0; i<data['categoria'].length; i++){
+                        //se agrega al select los datos que estan en el json
+                        $select.append('<option id="'+data['categoria'][i]['id_categoria']+'">' + data['categoria'][i]['nombre_categoria']+ '</option>');
+                     //manda a escribir a la consola el id
+                     console.log(data['categoria'][i]['id_categoria'])
+                    } 
+
+                    //se captura el evento de seleccion del select
+                    var s = document.getElementById('categoria');
+                    s.addEventListener('change',
+                    function(){
+                    var selectedOption = this.options[s.selectedIndex];
+                    console.log(selectedOption.value + ': ' + selectedOption.text);
+                    // dependiendo del objeto selecccionado se llama a la funcion producto
+                   console.log(s.selectedIndex)
+                    producto(selectedOption);
+                });
+
+                   
+                    })
+
+
+        function producto(id){
+            var $select1 = $('#producto');
+            $.getJSON('datos.json', function(data){
+            $select1.html('');
+            for(var j=0; j<data['categoria'].length; j++){
+                if (data['producto'][j]['id_categoria']==id){
+                $select1.append('<option id="'+data['producto'][j]['id_producto']+'">' + data['producto'][j]['nombre_producto']+ '</option>');
+                }
             }
+
+             var s = document.getElementById('producto');
+                    s.addEventListener('change',
+                    function(){
+                    var selectedOption = this.options[s.selectedIndex];
+                    console.log(selectedOption.value + ': ' + selectedOption.text);
+                    
+                    if (selectedOption.value=="Cereal"){
+                        marca(3);
+                    }else{
+                        marca(2);
+                    }
+                });
+        });
+        }
+
+        function marca(id){
+            var $select2 = $('#marca');
+            $.getJSON('datos.json', function(data){
+            $select2.html('');
+            for(var k=0; k<data['marca'].length; k++){
+               
+                if (data['marca'][k]['id_producto']==id){
+                $select2.append('<option id="'+data['marca'][k]['id_marca']+'">' + data['marca'][k]['nombre_marca']+ '</option>');
+                }
+            }
+                var s = document.getElementById('marca');
+                    s.addEventListener('change',
+                    function(){
+                    var selectedOption = this.options[s.selectedIndex];
+                    console.log(selectedOption.value + ': ' + selectedOption.text);
+                    
+                    grafico(data);
+                    
+                });
+
         });
 
-        });     
+            
 
- 
+        }
+
+
+//function grafico(datos){
+    Highcharts.chart('container', {
+    
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: 'Sales by month for'
+    },
+    yAxis: {
+        allowDecimals: false,
+        title: {
+            text: 'Ventas'
+        },
+        data: 'datos.json'
+    },
+    xAxis: {
+        allowDecimals: false,
+        categories: [
+            'Jan',
+            'Feb',
+            'Mar',
+            'Apr',
+            'May',
+            'Jun',
+            'Jul',
+            'Aug',
+            'Sep',
+            'Oct',
+            'Nov',
+            'Dec'
+        ],
+        crosshair: true,
+        title: {
+            text: 'Meses'
+        }
+    },
+    tooltip: {
+        formatter: function () {
+            return '<b>' + this.series.name + '</b><br/>';
+        }
+    },
+    series: [{
+        data: [0, 5, 3, 5]
+    }
+    ]
+});
+
+            //grfico
+
+            
         </script>
     </body>
 
