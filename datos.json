@@ -1,0 +1,102 @@
+[
+    {
+		"categoria": "Comida",
+		"producto": "Cereal",
+		"marca": "Infiniti"
+	},
+	{
+		"categoria": "Comida",
+		"producto": "Leche",
+		"marca": "Mitsubishi Motors"
+	},
+	{
+		"categoria": "Ropa",
+		"producto": "Camisa",
+		"marca": "Dacia"
+	},
+	{
+		"categoria": "Ropa",
+		"producto": "Detergente",
+		"marca": "Mercedes-Benz"
+	},
+	{
+		"categoria": "Ropa",
+		"producto": "Desinfectante",
+		"marca": "Dodge"
+	},
+	{
+		"categoria": "Comida",
+		"producto": "Desinfectante",
+		"marca": "Vauxhall"
+	},
+	{
+		"categoria": "Comida",
+		"producto": "Cereal",
+		"marca": "Mercedes-Benz"
+	},
+	{
+		"categoria": "Comida",
+		"producto": "Jabon",
+		"marca": "Dodge"
+	},
+	{
+		"categoria": "Ropa",
+		"producto": "Cereal",
+		"marca": "Smart"
+	},
+	{
+		"categoria": "Comida",
+		"producto": "Cereal",
+		"marca": "Ford"
+	},
+	{
+		"categoria": "Comida",
+		"producto": "Detergente",
+		"marca": "Seat"
+	},
+	{
+		"categoria": "Comida",
+		"producto": "Cereal",
+		"marca": "Ferrari"
+	},
+	{
+		"categoria": "Ropa",
+		"producto": "Detergente",
+		"marca": "Audi"
+	},
+	{
+		"categoria": "Ropa",
+		"producto": "Desinfectante",
+		"marca": "Suzuki"
+	},
+	{
+		"categoria": "Comida",
+		"producto": "Detergente",
+		"marca": "Cadillac"
+	},
+	{
+		"categoria": "Comida",
+		"producto": "Desinfectante",
+		"marca": "Cadillac"
+	},
+	{
+		"categoria": "Comida",
+		"producto": "Desinfectante",
+		"marca": "Isuzu"
+	},
+	{
+		"categoria": "Comida",
+		"producto": "Jabon",
+		"marca": "FAW"
+	},
+	{
+		"categoria": "Ropa",
+		"producto": "Detergente",
+		"marca": "Honda"
+	},
+	{
+		"categoria": "Comida",
+		"producto": "Jabon",
+		"marca": "Smart"
+	}
+]
